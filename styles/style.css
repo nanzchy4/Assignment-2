@@ -37,7 +37,7 @@ body{
     margin-bottom: 32px;
     opacity: 0.9;
 }
-.header-writing .live{
+.live{
     
     text-decoration: none;
     color: white;
@@ -61,9 +61,9 @@ body{
 
 
 .centering{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    justify-items: center;
+    display: flex;
+    /* grid-template-columns: repeat(1,1fr); */
+    justify-content: center;/*justify-items:center*/
 }  
    
 
@@ -163,4 +163,57 @@ body{
 }
 .blog .blog-details span{
     padding-left: 6px;
+}
+
+.hidden-button{
+    display: inline-block;
+    margin-top:80px;
+    margin-left: 674px;
+    /* display: none; */
+}
+/* footer styling
+ */
+
+footer{
+    height: 350px;
+    margin-top: 130px;
+    background-color: #161616;
+}
+footer h2{
+    color: lightblue;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 130px;
+    /* padding: 130px 674px 254px 675px ; */
+}
+hr{
+    color: lightgray;
+    width: 80%;
+    margin: auto;
+}
+.footer-container{
+    width: 55%;
+    margin: auto;
+}
+footer span{
+    color: white;
+    margin-right: 30px;
+}
+
+/* responsive for small screen */
+
+@media only screen and (max-width:576px){
+    .blogs{
+        grid-template-columns: repeat(1,1fr)
+        
+    }
+    .blog-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .side-nav{
+        margin-bottom: 1em;
+      
+    }
+
 }
