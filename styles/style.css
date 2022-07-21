@@ -1,0 +1,56 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+
+body{
+    font-family: 'Mukta', sans-serif;
+}
+.centering-header{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    margin-top: 50px;
+
+}
+.header-style{
+    display: flex;
+    background-color: #161616;
+    border-radius: 30px;
+    width: 80%;
+    
+}
+.header-writing{
+    width: 50%;
+    color: white;
+    margin-left: 106px;
+    margin-top: 70px;
+  
+}
+.header-title{
+    
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 4px;
+    
+}
+.header-writing p{
+    margin-bottom: 32px;
+    opacity: 0.9;
+}
+.header-writing .live{
+    
+    text-decoration: none;
+    color: white;
+    background-color: #DD0000;
+    padding: 10px 25px;
+    border-radius: 5px;
+
+}
+.fa-arrow-up-right-from-square{
+    padding: 0 10px;
+}
+.header-image{
+    width: 50%;
+}
+.header-image img{
+    width: 99%;
+}
