@@ -192,10 +192,7 @@ hr{
     width: 80%;
     margin: auto;
 }
-/* .footer-container{
-    width: 55%;
-    margin: auto;
-} */
+
 .footer-container{
     display: flex;
     justify-content: center;
@@ -205,7 +202,17 @@ footer p{
     color: white;
     margin-right: 30px;
 }
-
+/* .links-icon{
+    border: 1px solid blue;
+    width: 50%;
+    margin: 30px auto;
+} */
+.links-icon{
+    width: 15%;
+    font-size: 3rem;
+    margin: 40px auto;
+}
+    
 /* responsive for small screen */
 
 @media only screen and (max-width:576px){
@@ -237,6 +244,25 @@ footer p{
     .header-style{
         flex-direction: column;
         width: 80%;
-        /* justify-content: center; */
+        margin: auto;
+        
     }
+    .header-writing{
+        margin-left: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .header-image {
+        margin-left: auto;
+        width: 100%;
+    }
+
+    /* .header-title{
+        
+        font-size: 2em;
+    } */ 
+    /* .centering-header{
+        width: 100%;
+    } */
+
 }
